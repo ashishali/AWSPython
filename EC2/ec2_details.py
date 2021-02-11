@@ -1,6 +1,6 @@
 import boto3, sys
 
-access_console = boto3.session.Session(profile_name = 'charlie', region_name = 'us-east-2')
+access_console = boto3.session.Session(profile_name = 'username', region_name = 'region_name')
 
 def resource_code():
     counter = 0
