@@ -4,7 +4,7 @@ from pprint import pprint
 
 class ResourceWaiter:
     def __init__(self) -> None:
-        access_console       = b3.session.Session(profile_name = 'charlie', region_name = 'us-east-1')
+        access_console       = b3.session.Session(profile_name = 'username', region_name = 'region')
         self.service_console = access_console.resource('ec2')
 
     def get_id(self):
